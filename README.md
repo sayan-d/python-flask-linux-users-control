@@ -5,8 +5,11 @@ Author: Sayan Das
 
 ##Requirements##
 Python3.x
+
 Flask
+
 Linux Wheel User : flask
+
 Tested on Centos6.x OS
 
 ##Steps to Use this##
@@ -17,6 +20,7 @@ Tested on Centos6.x OS
 Login as user flask or change to flask using sudo su
 
 cd <flask installation directory>  #In my case it is /usr/local/flask-workshop
+
 python3 run.py &
 
 Access http://your-ip-or-hostname:port
