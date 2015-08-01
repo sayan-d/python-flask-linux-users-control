@@ -19,7 +19,7 @@ Tested on Centos6.x OS
 
 Login as user flask or change to flask using sudo su
 
-cd <flask installation directory>  #In my case it is /usr/local/flask-workshop
+cd flask_installation_directory  #In my case it is /usr/local/flask-workshop
 
 python3 run.py &
 
