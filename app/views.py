@@ -33,7 +33,7 @@ def output():
 		user4tharg = ''
 	import subprocess
 		
-	cmd = subprocess.Popen(['sudo','sh','/usr/local/scripts/users.sh',user,type,action,user4tharg],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+	cmd = subprocess.Popen(['sudo','bash','/usr/local/flask-workshop/scripts/users.sh',user,type,action,user4tharg],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 	stdout,error = cmd.communicate()
 	userscriptout = stdout.splitlines()
 	return render_template('output.html', action=action, type=type, user=user, user4tharg=user4tharg, userscriptout=userscriptout)
